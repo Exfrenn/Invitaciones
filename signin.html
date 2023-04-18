@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="s_efectos.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="encripta.js"></script>
+	<script type="text/javascript" src="s_pass.js"></script>
+	<title>Iniciar Sesion</title>
+</head>
+<body><center>
+<table border="1">
+	<form name="sign_in">
+	<tr align="center">
+		<td><p>Ingresa tu cuenta</p></td>
+		<td><input type="text"  class="campo" maxlength="10" name="s_acc" ></td>
+	</tr>
+	<tr align="center">
+		<td><p>Ingresa tu contraseña</p></td>
+		<td><input type="password"  class="campo" maxlength="10" name="s_psw"><img src="openeye.png" width="15" height="15" onClick="show()"><img src="clsdeye.png" width="30" height="30" onclick="hide()"></td>
+	</tr>
+	<tr align="center">
+		<td><input type="button" class="boton_azul" value="Send" name="s_sgn" onClick="nada()"></td>
+		<td><input type="reset" class="boton_rojo" value="Reset" name="s_res"></td>
+	</tr>
+	<input type="hidden" name="intentos" value="0">
+	<input type="hidden" name="encriptado" value="">
+	<input type="hidden" name="encriptado1" value="">
+	</form>
+</table>
+</body></center>
+</html>
