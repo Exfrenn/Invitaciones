@@ -13,8 +13,6 @@ function nada(){
 	s_psw=document.sign_in.s_psw.value;
 	j_acc=ejecuta(s_acc);
 	j_psw=ejecuta(s_psw);
-	alert(j_acc);
-	alert(j_psw);
 	if (j_acc.length==0) {
 		alert("Please insert your account");
 		document.sign_in.s_acc.style.background = "red";
